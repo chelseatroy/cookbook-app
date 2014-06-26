@@ -3,9 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+#database management
 gem 'mysql2'
 
-#
+#allows us to dump database data when switching database frameworks
 gem 'seed_dump'
 
 # Use SCSS for stylesheets
